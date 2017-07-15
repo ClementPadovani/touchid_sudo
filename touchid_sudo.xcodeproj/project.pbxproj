@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59407D631F1A417F00B63386 /* TCSULauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 59407D621F1A417F00B63386 /* TCSULauncher.m */; };
+		59407D661F1A424300B63386 /* TCSUPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59407D651F1A424300B63386 /* TCSUPrinter.m */; };
 		5955871D1F1A4068009C246A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5955871C1F1A4068009C246A /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		59407D611F1A417F00B63386 /* TCSULauncher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSULauncher.h; sourceTree = "<group>"; };
+		59407D621F1A417F00B63386 /* TCSULauncher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSULauncher.m; sourceTree = "<group>"; };
+		59407D641F1A424300B63386 /* TCSUPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSUPrinter.h; sourceTree = "<group>"; };
+		59407D651F1A424300B63386 /* TCSUPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSUPrinter.m; sourceTree = "<group>"; };
 		595587191F1A4068009C246A /* touchid_sudo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = touchid_sudo; sourceTree = BUILT_PRODUCTS_DIR; };
 		5955871C1F1A4068009C246A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				5955871C1F1A4068009C246A /* main.m */,
+				59407D611F1A417F00B63386 /* TCSULauncher.h */,
+				59407D621F1A417F00B63386 /* TCSULauncher.m */,
+				59407D641F1A424300B63386 /* TCSUPrinter.h */,
+				59407D651F1A424300B63386 /* TCSUPrinter.m */,
 			);
 			path = touchid_sudo;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59407D631F1A417F00B63386 /* TCSULauncher.m in Sources */,
 				5955871D1F1A4068009C246A /* main.m in Sources */,
+				59407D661F1A424300B63386 /* TCSUPrinter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

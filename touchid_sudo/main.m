@@ -8,7 +8,20 @@
 
 @import Foundation;
 
+#import "TCSULauncher.h"
+#import "TCSUPrinter.h"
+
 int main(int argc, const char * argv[])
 {
-    return 0;
+    @autoreleasepool
+    {
+        if (![TCSULauncher knowsWhatToLaunch])
+        {
+            [TCSUPrinter printAndLogErrorMessageWithString: @"Please pass arguments"];
+            
+            return -1;
+        }
+        
+        return 0;
+    }
 }
